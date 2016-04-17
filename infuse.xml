@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+        <remote name="gh"
+           fetch="git://github.com/"/>
+
+        <remote name="joelmaxuel"
+           fetch="git://github.com/carbon-infuse/"/>
+         
+  	<project path="device/samsung/infuse4g" name="android_device_samsung_infuse4g" remote="joelmaxuel" revision="kk" />
+	<project path="device/samsung/aries-common" name="android_device_samsung_aries-common" remote="joelmaxuel" revision="cm-11.0" />
+	<project path="vendor/samsung" name="proprietary_vendor_samsung" remote="joelmaxuel" revision="kk" />
+	<project path="kernel/samsung/dempsey" name="cm_samsung_kernel_dempsey" remote="joelmaxuel" revision="kk44" />
+	
+</manifest>
